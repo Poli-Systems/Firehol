@@ -12,4 +12,4 @@
 	rm /tmp/tmpcron
   
   echo "firehol has been installed and the crontab is running every 13 minutes" 
-  ecoh "Thanks for using it, by Poli Systems"
+  echo "Thanks for using it, by Poli Systems"
