@@ -1,5 +1,5 @@
-	#Install firehol and enable some block lists
-  #By Poli Systems
+#Install firehol and enable some block lists
+#By Poli Systems
   
   apt update
   apt install firehol firehol-tools -y
