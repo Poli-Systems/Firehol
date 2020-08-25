@@ -45,6 +45,9 @@ version 6
 interface any world
         client all accept
         server all accept
+        client ipv6neigh accept
+        server ipv6neigh accept
+
 ' > /etc/firehol/firehol.conf
 
 	update-ipsets enable  dshield spamhaus_drop spamhaus_edrop blocklist_de firehol_level1 firehol_level2 firehol_level3 dshield_top_1000 bruteforceblocker malc0de greensnow myip fullbogons
